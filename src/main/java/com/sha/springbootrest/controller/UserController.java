@@ -2,7 +2,7 @@ package com.sha.springbootrest.controller;
 
 import com.sha.springbootrest.model.Role;
 import com.sha.springbootrest.model.User;
-import com.sha.springbootrest.model.UserDto;
+import com.sha.springbootrest.dto.UserDto;
 import com.sha.springbootrest.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,7 @@
-package com.sha.springbootrest.model;
+package com.sha.springbootrest.dto;
 
 
+import com.sha.springbootrest.model.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
