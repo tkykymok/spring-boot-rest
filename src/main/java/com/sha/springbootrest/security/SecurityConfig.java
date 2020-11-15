@@ -30,7 +30,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 // There are public paths so reachable paths by everybody.
                 .antMatchers("/error", "/api/user/**").permitAll()
                 // These can be reachable for just admin role. In here, ADMIN means: ADMIN or ROLE_ADMIN;
-                .antMatchers("/api/admin/**").hasRole("Admin")
+                .antMatchers("/api/admin/**").hasRole("ADMIN")
                 // All remaining paths should need authentication.
                 .anyRequest().fullyAuthenticated()
                 .and()
